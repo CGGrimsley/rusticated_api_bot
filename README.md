@@ -50,7 +50,7 @@ Rusticated API Bot is a Discord bot designed to track clan performance and indiv
 
 3. Create .env File
    ```bash
-   Follow the example in **.env.example**
+   Follow the example in .env.example
    
 4. Run the bot or make changes!
    ```bash
