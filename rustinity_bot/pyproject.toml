@@ -1,0 +1,14 @@
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+select = ["E", "F", "W", "B", "I"]
+ignore = ["E203", "W503"]  # so it plays nice with black
+fix = true
+
+[tool.ruff.isort]
+known-first-party = ["rustinity_bot"]
+combine-as-imports = true

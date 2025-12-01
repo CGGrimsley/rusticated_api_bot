@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# macOS / Windows artifacts
+.DS_Store
+Thumbs.db
+
+# SQLite DB
+trend.db
+trend.sqlite
