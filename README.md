@@ -43,3 +43,14 @@ Rusticated API Bot is a Discord bot designed to track clan performance and indiv
 1. Clone the repo:
    ```bash
    git clone https://github.com/CGGrimsley/rusticated_api_bot.git
+
+2. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+
+3. Create .env File
+   Follow the example in **.env.example**
+   
+4. Run the bot or make changes!
+   ```bash
+   python bot.py
