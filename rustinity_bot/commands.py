@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import math
 import asyncio
 import logging
 from typing import Dict, List
@@ -104,6 +105,9 @@ def _build_player_stats_embed(
         kdr_val = float(kdr)
     except (TypeError, ValueError):
         kdr_val = 0.0
+    else:
+        if not math.isfinite(kdr_val):
+            kdr_val = 0.0
 
     try:
         playtime = int(playtime)
