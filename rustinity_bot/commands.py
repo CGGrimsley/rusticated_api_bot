@@ -33,12 +33,12 @@ logger = logging.getLogger(__name__)
 
 # Walobots members: SteamID64 -> Discord user ID
 WALOBOTS_PLAYERS: Dict[str, int] = {
-    "76561198375218320": 349278268660121602,  # walomart
-    "76561198086215905": 440635241472983050,  # .demon.2709
-    "76561198302904771": 312363264354942987,  # enzonn
-    "76561199199627617": 345762447132590090,  # kdrgold
-    "76561197998529795": 1052813518715506759,  # .k7t
-    "76561199129469673": 763807165471129650,  # norris666
+    "Steam 64 id here": "discord user id here",  # Replace with actual Discord user ID
+    "Steam 64 id here": "discord user id here",  # Replace with actual Discord user ID
+    "Steam 64 id here": "discord user id here",  # Replace with actual Discord user ID
+    "Steam 64 id here": "discord user id here",  # Replace with actual Discord user ID
+    "Steam 64 id here": "discord user id here",  # Replace with actual Discord user ID
+    "Steam 64 id here": "discord user id here",  # Replace with actual Discord user ID
 }
 
 
